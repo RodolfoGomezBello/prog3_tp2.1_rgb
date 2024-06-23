@@ -20,13 +20,14 @@
                 <div class="box">
                     <form id="conversion-form">
                         <div class="field">
-                            <label class="label">Cantidad</label>
+                            <label class="label" for="amount">Cantidad</label>
                             <div class="control">
                                 <input
                                     class="input"
                                     type="number"
                                     step="any"
                                     id="amount"
+                                    placeholder="Ingrese la cantidad"
                                     required
                                 />
                             </div>
@@ -37,7 +38,7 @@
                                     <label class="label">De</label>
                                     <div class="control">
                                         <div class="select">
-                                            <select id="from-currency"></select>
+                                            <select id="from-currency" title="Seleccione la moneda"></select>
                                         </div>
                                     </div>
                                 </div>
@@ -47,7 +48,7 @@
                                     <label class="label">A</label>
                                     <div class="control">
                                         <div class="select">
-                                            <select id="to-currency"></select>
+                                            <select id="to-currency" title="Seleccione la moneda"></select>
                                         </div>
                                     </div>
                                 </div>
